@@ -1,0 +1,28 @@
+
+
+.item{
+
+
+width:100px;
+height:25px;
+text-align: center;
+color:white;
+font-weight: bold;
+
+}
+
+.level1 .item{
+    background-color: red;
+    position: relative;
+}
+
+.level1 .item .level2{
+    display: none;
+    position: absolute;
+    left: 100px;
+   
+}
+.level1 .item:hover + .level2{
+    display: flex;
+    background-color: blue;
+}
