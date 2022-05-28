@@ -17,6 +17,8 @@ body {
 .container {
   width: 380px;
   height: 440px;
+  border: 1px solid #E5E5E5;
+  border-radius: 8px;
 }
 
 .container .title {
@@ -26,6 +28,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  border-bottom: 1px solid #E5E5E5;
   padding: 16px 20px 16px 20px;
 }
 
@@ -47,12 +50,19 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   margin-right: 8px;
-  padding-left: 20px;
+  opacity: 0.5;
+  padding: 5px 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #E5E5E5;
+  border-radius: 4px;
 }
 
 .data #month {
@@ -70,6 +80,7 @@ body {
 }
 
 .content .flex {
+  padding-top: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103,6 +114,9 @@ body {
 }
 
 .content .flex2 {
+  border-bottom: 1px solid #E5E5E5;
+  margin-right: 20px;
+  margin-left: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -113,12 +127,15 @@ body {
 
 .content .flex2 .task-bar {
   width: 100px;
-  border-radius: 50%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 44px;
   height: 4px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-right: 12px;
+  background-color: #E5E5E5;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
