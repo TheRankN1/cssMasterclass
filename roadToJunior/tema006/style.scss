@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100wh;
+    height: 100vh;
+    font-family: "Source Sans Pro";
+}
+
+.buttons {
+    display: flex;
+
+    .row1 {
+        margin-right: 20px;
+
+        .col1,
+        .col2,
+        .col3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 72px;
+            height: 22px;
+            align-items: center;
+            background: #ff0000;
+            margin-top: 18px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 150%;
+
+            text-align: center;
+
+            color: #ffffff;
+        }
+    }
+
+    .row2 {
+
+        .col1,
+        .col2,
+        .col3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 90px;
+            height: 32px;
+            background: #aca2ff;
+            border: 1px solid #aca1ff;
+            border-radius: 4px;
+            font-size: 12px;
+            line-height: 15px;
+            margin-top: 8px;
+            text-align: center;
+        
+            color: #ffffff;
+
+            &.first {
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 15px;
+                text-align: center;
+                color: #4c3fb1;
+            }
+
+        }
+
+        .col2 {
+            &.second {
+                background-color: #786DCF;
+            }
+        }
+
+        .col3 {
+            &.third {
+                background-color:
+                    #4C3FB1;
+            }
+
+        }
+
+    }
+
+    .row3 {
+
+        .col1,
+        .col2,
+        .col3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #FFFFFF;
+            border: 1px solid #000000;
+            border-radius: 4px;
+            width: 90px;
+            height: 32px;
+            margin-top: 8px;
+            margin-left: 15px;
+            text-align: center;
+        }
+
+        span {
+
+            font-size: 12px;
+            line-height: 15px;
+            text-align: center;
+            color: #000000;
+        }
+    }
+}
+
+.content {
+    width: 720px;
+    margin-top: 105px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    .left {
+        display: flex;
+        margin:20px 16px 24px 16px;
+        img {
+            margin-right: 15px;
+        }
+
+        .about {
+            display: flex;
+            flex-direction: column;
+
+            #name {
+                width: 101px;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 18px;
+                color: #181818;
+
+            }
+
+            #function {
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 150%;
+                color: #969696;
+            }
+
+            #connections {
+                font-size: 10px;
+                line-height: 150%;
+                color: #4C3FB1;
+                margin-top: 3px;
+            }
+        }
+    }
+    .right{
+        padding:32px;
+        display: flex;
+        .accept{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 600;
+                font-size: 12px;
+                line-height: 15px;
+                background: #ACA1FF;
+                color: #4c3fb1;
+                margin-right:10px;
+                width: 90px;
+                height: 32px;
+                border: 1px solid #aca1ff;
+                border-radius: 4px;
+                font-size: 12px;
+                line-height: 15px;
+                text-align: center;
+        }
+        .decline{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #FFFFFF;
+            border: 1px solid #000000;
+            border-radius: 4px;
+            width: 90px;
+            height: 32px;
+            font-size:12px;
+           
+            margin-left: 15px;
+            text-align: center;
+        }
+    }
+}
