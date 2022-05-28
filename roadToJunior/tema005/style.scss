@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100wh;
+  font-family: Source Sans Pro;
+
+  height: 100vh;
+}
+.nameCard,
+.numberCard,
+.Expiration,
+.Cvv {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+#text {
+  width: 320px;
+  margin-left: 40px;
+  height: 44px;
+  margin-right: 40px;
+  background: #ffffff;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+}
+#text::placeholder {
+  padding: 8px 10px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #a3a3a3;
+  height: 44px;
+}
+
+.container {
+  width: 400px;
+  height: 350px;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  .title {
+    &.second {
+      margin-top: 24px;
+    }
+    &.last{
+        margin-left:0;
+    }
+  
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 18px;
+    margin-bottom: 12px;
+    color: black;
+  }
+}
+
+.ExpirationCvv {
+  display: flex;
+  
+  
+  #cvv {
+    background: #ffffff;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    height: 44px;
+    width: 148px;
+    
+    margin-right: 40px;
+  }
+  #cvv::placeholder {
+    padding: 8px 10px;
+    font-size: 16px;
+
+    line-height: 28px;
+    color: #a3a3a3;
+  }
+ 
+
+  #MMYY {
+    background: #ffffff;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    height: 44px;
+    width: 148px;
+    margin-left: 40px;
+    margin-right: 23px;
+  }
+  #MMYY::placeholder {
+    padding: 8px 10px;
+    font-size: 16px;
+    color: #a3a3a3;
+    line-height: 28px;
+  }
+}

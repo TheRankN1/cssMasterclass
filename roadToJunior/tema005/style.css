@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100wh;
+  font-family: Source Sans Pro;
+  height: 100vh;
+}
+
+.nameCard,
+.numberCard,
+.Expiration,
+.Cvv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#text {
+  width: 320px;
+  margin-left: 40px;
+  height: 44px;
+  margin-right: 40px;
+  background: #ffffff;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+}
+
+#text::-webkit-input-placeholder {
+  padding: 8px 10px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #a3a3a3;
+  height: 44px;
+}
+
+#text:-ms-input-placeholder {
+  padding: 8px 10px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #a3a3a3;
+  height: 44px;
+}
+
+#text::-ms-input-placeholder {
+  padding: 8px 10px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #a3a3a3;
+  height: 44px;
+}
+
+#text::placeholder {
+  padding: 8px 10px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #a3a3a3;
+  height: 44px;
+}
+
+.container {
+  width: 400px;
+  height: 350px;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container .title {
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size: 14px;
+  text-align: left;
+  line-height: 18px;
+  margin-bottom: 12px;
+  color: black;
+}
+
+.container .title.second {
+  margin-top: 24px;
+}
+
+.container .title.last {
+  margin-left: 0;
+}
+
+.ExpirationCvv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ExpirationCvv #cvv {
+  background: #ffffff;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  height: 44px;
+  width: 148px;
+  margin-right: 40px;
+}
+
+.ExpirationCvv #cvv::-webkit-input-placeholder {
+  padding: 8px 10px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #a3a3a3;
+}
+
+.ExpirationCvv #cvv:-ms-input-placeholder {
+  padding: 8px 10px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #a3a3a3;
+}
+
+.ExpirationCvv #cvv::-ms-input-placeholder {
+  padding: 8px 10px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #a3a3a3;
+}
+
+.ExpirationCvv #cvv::placeholder {
+  padding: 8px 10px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #a3a3a3;
+}
+
+.ExpirationCvv #MMYY {
+  background: #ffffff;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  height: 44px;
+  width: 148px;
+  margin-left: 40px;
+  margin-right: 23px;
+}
+
+.ExpirationCvv #MMYY::-webkit-input-placeholder {
+  padding: 8px 10px;
+  font-size: 16px;
+  color: #a3a3a3;
+  line-height: 28px;
+}
+
+.ExpirationCvv #MMYY:-ms-input-placeholder {
+  padding: 8px 10px;
+  font-size: 16px;
+  color: #a3a3a3;
+  line-height: 28px;
+}
+
+.ExpirationCvv #MMYY::-ms-input-placeholder {
+  padding: 8px 10px;
+  font-size: 16px;
+  color: #a3a3a3;
+  line-height: 28px;
+}
+
+.ExpirationCvv #MMYY::placeholder {
+  padding: 8px 10px;
+  font-size: 16px;
+  color: #a3a3a3;
+  line-height: 28px;
+}
+/*# sourceMappingURL=style.css.map */
