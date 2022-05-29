@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100wh;
+  height: 100vh;
+  font-family: "Source Sans Pro";
+}
+.container {
+  .row {
+   
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    height: 84px;
+    margin-top:24px;
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    .right{
+     display: flex;
+     align-items: center;
+    #firstImg {
+      padding: 16px;
+    }
+    .nameJob {
+      display: flex;
+      flex-direction: column;
+      .name {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        color: #181818;
+      }
+      .job{
+        font-weight: 400;
+font-size: 10px;
+line-height: 150%;
+color: #969696;
+      }
+    }
+  }
+    .time{
+      margin-right: 16px;
+      font-weight: 400;
+font-size: 10px;
+line-height: 150%;
+text-align: right;
+color: #969696;
+    }
+  }
+}
