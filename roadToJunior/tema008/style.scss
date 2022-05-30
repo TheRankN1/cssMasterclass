@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100wh;
+  font-family: "Mulish";
+  height: 100vh;
+}
+.container {
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+  width: 1120px;
+  height: 425px;
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .title {
+      padding-top: 64px;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 48px;
+      color: #ffffff;
+    }
+    img {
+      margin-top: 25px;
+    }
+  }
+  .content {
+    margin-top: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .person {
+      display: flex;
+      align-items: center;
+      img {
+        margin-left: 118px;
+        border-radius: 50%;
+        border: solid 3px;
+        background-color: #fff;
+        border-color: white;
+      }
+      .name_and_job {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-left: 29px;
+        margin-right: 110px;
+        width: 190px;
+        .name {
+          font-weight: 700;
+          font-size: 22px;
+
+          color: #ffffff;
+          mix-blend-mode: normal;
+        }
+        .job {
+          font-weight: 400;
+          font-size: 18px;
+          margin-top: 1px;
+
+          color: rgba(255, 255, 255, 0.85);
+        }
+      }
+    }
+    .quote {
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 30px;
+      margin-right: 118px;
+      color: rgba(255, 255, 255, 0.9);
+    }
+  }
+}
