@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100wh;
+  font-family: 'Mulish';
+  height: 100vh;
+  background-color: #D1C9C9;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .head {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 55px;
+  line-height: 56px;
+  color: #000000;
+  position: relative;
+}
+
+.container .head:before {
+  width: 56px;
+  height: 2px;
+  background-color: #000000;
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: calc(50% - 28px);
+}
+
+.container .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .content .box {
+  width: 350px;
+  margin-right: 34px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+          box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+}
+
+.container .content .box:last-child {
+  margin-right: 0;
+}
+
+.container .content .box img {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.container .content .box .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 33px;
+  padding-top: 16px;
+  padding-bottom: 20px;
+  padding-right: 33px;
+}
+
+.container .content .box .text .title {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 21px;
+  color: #000000;
+}
+
+.container .content .box .text .description {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.container .content .box .text .readMore {
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 17px;
+  color: #4089ED;
+  mix-blend-mode: normal;
+}
+
+.container .btn {
+  margin-top: 33px;
+  background: #FFFFFF;
+  border-radius: 55px;
+  width: 200px;
+}
+
+.container .btn span {
+  margin-left: 66px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  color: #458FF6;
+}
+/*# sourceMappingURL=style.css.map */
