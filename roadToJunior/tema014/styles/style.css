@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+.container {
+  border: 1px solid #E2E2E2;
+  border-radius: 8px;
+  width: 1000px; }
+  .container .header {
+    display: flex; }
+    .container .header .persons {
+      display: flex;
+      flex: 1; }
+      .container .header .persons .person {
+        display: flex;
+        align-items: center;
+        flex: 1 1 0px;
+        padding: 12px 24px;
+        border-right: 1px solid #E2E2E2; }
+        .container .header .persons .person.vlad .image:before {
+          content: "";
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          left: 4px;
+          bottom: 48px;
+          background: #FF5C00;
+          border: 1px solid #FFFFFF; }
+        .container .header .persons .person.vlad .image:after {
+          content: "";
+          position: absolute;
+          width: 8px;
+          border-radius: 50%;
+          height: 8px;
+          right: 48px;
+          top: 4px;
+          background: #FF5C00;
+          border: 1px solid #FFFFFF; }
+        .container .header .persons .person.florin .image:before {
+          content: "";
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          left: 4px;
+          top: 4px;
+          background: #FF5C00;
+          border: 1px solid #FFFFFF; }
+        .container .header .persons .person.florin .image:after {
+          content: "";
+          position: absolute;
+          width: 8px;
+          border-radius: 50%;
+          height: 8px;
+          right: 4px;
+          top: 4px;
+          background: #FF5C00;
+          border: 1px solid #FFFFFF; }
+        .container .header .persons .person .image {
+          width: 60px;
+          height: 60px;
+          position: relative;
+          border-radius: 6px; }
+          .container .header .persons .person .image:before {
+            content: "";
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            left: 4px;
+            top: 48px;
+            background: #0CFF07;
+            border: 1px solid #FFFFFF; }
+          .container .header .persons .person .image:after {
+            content: "";
+            position: absolute;
+            width: 8px;
+            border-radius: 50%;
+            height: 8px;
+            right: 4px;
+            top: 48px;
+            background: #0CFF07;
+            border: 1px solid #FFFFFF; }
+        .container .header .persons .person .info {
+          display: flex;
+          margin-left: 8px;
+          flex-direction: column; }
+          .container .header .persons .person .info .name {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 16px;
+            color: #0065FF;
+            margin-bottom: 4px; }
+          .container .header .persons .person .info .location span {
+            margin-right: 12px; }
+  .container .price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px; }
+    .container .price strong {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 40px;
+      color: #786DCF;
+      margin-bottom: 8px; }
+    .container .price span {
+      font-size: 14px;
+      line-height: 20px;
+      color: #202024; }
+  .container .description {
+    padding: 17px 24px;
+    background-color: #e2e2e2;
+    display: flex; }
+    .container .description span {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #202024; }
+    .container .description .buttons {
+      display: flex;
+      align-items: center; }
+      .container .description .buttons .activeaza {
+        padding: 6px 16px;
+        margin-right: 6px;
+        background: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 4px; }
+        .container .description .buttons .activeaza span {
+          line-height: 24px;
+          font-size: 14px;
+          color: #202024; }
+      .container .description .buttons .sterge {
+        padding: 6px 16px;
+        font-weight: 400;
+        background: #786dcf;
+        border: 1px solid #786dcf;
+        border-radius: 4px; }
+        .container .description .buttons .sterge span {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px;
+          color: #ffffff; }
+  .container .details {
+    display: flex;
+    border-bottom: solid 1px #e2e2e2; }
+    .container .details .durationOcupation .title {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #202024; }
+    .container .details .durationOcupation.item {
+      flex: 1 1 0;
+      border-right: solid 1px #e2e2e2;
+      padding: 16px 24px; }
+    .container .details .durationOcupation ul {
+      margin: 0;
+      padding: 0; }
+      .container .details .durationOcupation ul li {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #202024; }
+    .container .details .dailyRate {
+      display: flex;
+      flex-direction: column; }
+      .container .details .dailyRate.item {
+        flex: 1 1 0;
+        border-right: solid 1px #e2e2e2;
+        padding: 16px 24px; }
+      .container .details .dailyRate .title {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #202024; }
+      .container .details .dailyRate .rate {
+        padding-top: 8px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        margin: 0;
+        color: #786dcf;
+        padding-bottom: 8px; }
+      .container .details .dailyRate span {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #202024; }
+    .container .details .bars {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 24px;
+      border-right: solid 1px #e2e2e2; }
+      .container .details .bars .bar {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 15px;
+        height: 110px;
+        background: #E2E2E2;
+        border-radius: 4px;
+        margin-right: 16px; }
+        .container .details .bars .bar .black {
+          display: flex;
+          flex-direction: column-reverse;
+          height: 67px;
+          background: #263238;
+          border-radius: 4px; }
+          .container .details .bars .bar .black .purple {
+            height: 33px;
+            background: #786DCF;
+            border-radius: 4px; }
+        .container .details .bars .bar:nth-child(2) .purple {
+          height: 48px; }
+        .container .details .bars .bar:nth-child(3) .black {
+          height: 83px; }
+        .container .details .bars .bar:nth-child(3) .purple {
+          height: 39px; }
+        .container .details .bars .bar:nth-child(4) .black {
+          height: 90px; }
+        .container .details .bars .bar:nth-child(4) .purple {
+          height: 67px; }
+        .container .details .bars .bar:nth-child(5) .black {
+          height: 63px; }
+        .container .details .bars .bar:nth-child(5) .purple {
+          height: 14px; }
+        .container .details .bars .bar:nth-child(6) .black {
+          height: 80px; }
+        .container .details .bars .bar:nth-child(6) .purple {
+          height: 55px; }
+        .container .details .bars .bar:last-child {
+          margin-right: 0; }
+          .container .details .bars .bar:last-child .black {
+            height: 96px; }
+          .container .details .bars .bar:last-child .purple {
+            height: 78px; }
+    .container .details .Payment {
+      display: flex;
+      flex-direction: column; }
+      .container .details .Payment span {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #202024; }
+        .container .details .Payment span.blue {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          color: #0065ff; }
+      .container .details .Payment .title {
+        padding-bottom: 6px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #202024; }
+      .container .details .Payment.item {
+        flex: 1 1 0;
+        padding: 16px 24px; }
+  .container .big {
+    padding: 16px 24px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #786DCF; }
+  .container .companyDetails {
+    border-top: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+    display: flex; }
+    .container .companyDetails .company {
+      padding: 16px 24px;
+      flex: 1 1 0px;
+      display: flex;
+      background: #E2E2E2; }
+      .container .companyDetails .company .info {
+        display: flex;
+        margin-left: 24px;
+        flex-direction: column; }
+        .container .companyDetails .company .info .by {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          color: #202024; }
+        .container .companyDetails .company .info span {
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 24px;
+          color: #202024; }
+    .container .companyDetails .deadline {
+      display: flex;
+      flex: 1 1 0px;
+      flex-direction: column;
+      padding: 18px 24px; }
+      .container .companyDetails .deadline span {
+        text-align: center;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #202024; }
+        .container .companyDetails .deadline span.timer {
+          font-weight: 600;
+          font-size: 16px;
+          color: #DF3859; }
+      .container .companyDetails .deadline .buttons {
+        display: flex;
+        padding-top: 12px;
+        justify-content: center; }
+        .container .companyDetails .deadline .buttons .archive {
+          padding: 7px 33px;
+          margin-right: 6px;
+          background: #ffffff;
+          border: 1px solid #786DCF;
+          border-radius: 6px;
+          line-height: 24px;
+          font-size: 18px;
+          color: #202024; }
+        .container .companyDetails .deadline .buttons .share {
+          padding: 7px 33px;
+          font-weight: 400;
+          background: #786dcf;
+          border: 1px solid #786DCF;
+          border-radius: 6px;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 24px;
+          color: #ffffff; }
+  .container .developers {
+    display: flex; }
+    .container .developers .item {
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+      margin: 16px 24px;
+      width: 320px;
+      display: flex;
+      flex: 1 1 0px;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 0; }
+      .container .developers .item:last-child {
+        margin-right: 24px;
+        margin-left: 0; }
+    .container .developers .middle {
+      margin-right: 24px;
+      margin-left: 24px;
+      padding: 16px 24px;
+      border-right: 1px solid #e5e5e5;
+      border-left: 1px solid #e5e5e5; }
+      .container .developers .middle .middleitem {
+        border: 1px solid #e5e5e5;
+        border-radius: 4px;
+        width: 320px;
+        display: flex;
+        flex: 1 1 0px;
+        justify-content: space-between;
+        align-items: center; }
+        .container .developers .middle .middleitem:last-child {
+          margin-right: 0; }
+    .container .developers .left {
+      display: flex;
+      align-items: center; }
+      .container .developers .left #firstImg {
+        padding: 16px; }
+      .container .developers .left .nameJob {
+        display: flex;
+        flex-direction: column; }
+        .container .developers .left .nameJob .name {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 18px;
+          color: #181818; }
+        .container .developers .left .nameJob .job {
+          font-weight: 400;
+          font-size: 10px;
+          line-height: 150%;
+          color: #969696; }
+    .container .developers .time {
+      margin-right: 16px;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 150%;
+      text-align: right;
+      color: #969696; }
+
+/*# sourceMappingURL=style.css.map */

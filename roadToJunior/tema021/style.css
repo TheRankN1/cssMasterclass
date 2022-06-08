@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+.pricing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pricing-item {
+  background: #ffffff;
+  color: #000000;
+  border-radius: 12px;
+  padding: 40px;
+  width: 175px;
+}
+
+.pricing-item.featured {
+  padding: 36px 60px;
+  width: 250px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#546edd), to(#7445cf)), #ffffff;
+  background: linear-gradient(180deg, #546edd 0%, #7445cf 100%), #ffffff;
+  z-index: 1;
+  color: #fff;
+}
+
+.pricing-item:first-child {
+  margin-right: -15px;
+}
+
+.pricing-item:last-child {
+  margin-left: -15px;
+}
+
+.pricing-item .title {
+  font-size: 21px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.pricing-item .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 30px;
+}
+
+.pricing-item .price span {
+  font-size: 21px;
+}
+
+.pricing-item .price strong {
+  font-weight: 400;
+  font-size: 60px;
+  padding: 0 8px;
+}
+
+.pricing-item ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.pricing-item ul li {
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+
+.pricing-item ul li:last-child {
+  margin-bottom: 0;
+}
+
+.pricing-item button {
+  background: #00aeff;
+  border-radius: 70px;
+  padding: 16px 60px;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
